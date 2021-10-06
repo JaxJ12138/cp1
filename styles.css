@@ -7,10 +7,6 @@
     look and feel.
 */
 
-.large {
-  font-size: 100pt;
-}
-
 .slim {
   font-weight: 100;
 }
@@ -21,6 +17,10 @@
 
 .category {
   text-decoration: black underline;
+}
+
+#large {
+  font-size: 100pt;
 }
 
 #autograph, body {
