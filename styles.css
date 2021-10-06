@@ -37,7 +37,7 @@ h1 {
   font-size: 50pt;
 }
 
-a, footer {
+a, body > footer {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   text-decoration: none;
