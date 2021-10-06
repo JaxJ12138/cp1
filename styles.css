@@ -1,19 +1,51 @@
 /*
-  *** TODO: fill in your header ***
-  INSERT YOUR NAME HERE
-  INSERT THE CURRENT DATE HERE
-  INSERT YOUR SECTION/TA NAME
-
-  WRITE A 2-3 SENTENCE FILE DESCRIPTION HERE
+    Name: Zhengxuan Jiang
+    Date: Oct 3, 2021
+    Section: CSE 154 AG
+    This is the styles.css page for my portfolio of web development work.
+    It is used by all pages in my portfolio to give the site a consistent
+    look and feel.
 */
 
-/*
-  Note: This body rule set is to get you started
-*/
+.large {
+  font-size: 100pt;
+}
+.slim {
+  font-weight: 100;
+}
+.contact {
+  text-align: right;
+}
+.category{
+  text-decoration: black underline;
+}
+#autograph{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+h1 {
+  font-size: 50pt;
+}
+
+
+a, footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+}
+
+blockquote {
+  background-color: rgb(224, 224, 224);
+}
+
 body {
-  background-color: rgb(137, 182, 154);
-  font-family: "Helvetica", sans-serif;
+  background-color: rgb(236, 236, 236);
+  font-family: 'Noto Sans Display', sans-serif;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
+  max-width: 900px;
 }
