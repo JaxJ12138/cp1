@@ -10,21 +10,29 @@
 .large {
   font-size: 100pt;
 }
+
 .slim {
   font-weight: 100;
 }
+
 .contact {
   text-align: right;
 }
-.category{
+
+.category {
   text-decoration: black underline;
 }
-#autograph{
-  display: block;
+
+#autograph, body {
   margin-left: auto;
   margin-right: auto;
+}
+
+#autograph {
+  display: block;
   width: 20%;
 }
+
 h1 {
   font-size: 50pt;
 }
@@ -44,8 +52,6 @@ blockquote {
 body {
   background-color: rgb(236, 236, 236);
   font-family: 'Noto Sans Display', sans-serif;
-  margin-left: auto;
-  margin-right: auto;
   width: 80%;
   max-width: 900px;
 }
